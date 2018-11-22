@@ -1,20 +1,10 @@
 /*! HTML5 Boilerplate v5.0 | MIT License | http://h5bp.com/ */
 
-img {
-    height:100%;
-    width:100%;
+.img{
+    height: auto;
+    width: auto;
 }
 
-p {
-    font-size: 20px;
-    font-family: "Pacifico";
-    margin:0px 20px 0px 20px;
-}
-
-p1 {
-    font-size: 40px;
-    font-family: "Pacifico";
-}
 
 .html {
     color: #222;
@@ -33,78 +23,29 @@ p1 {
 }
 
 
-.header {
-    height: 70px;
-    width: 100%;
-    background-color: white;
-    border: 1px solid black;
-    
-    
+.header{
+    height:100px;
+    width:100%;
+    background-color:blue;
+
+
 }
 
 .content {
     border: 1px solid black;
     min-height: 300px;
     height: auto;
-    padding:50px;
+    background-color: #8764E8;
 }
 
 
-.section {
-    position: relative;
-    height: 300px;
-    width: 100%;
-    border: 2px solid black;
- 
+.content-container{
+    height:700px;
+    width:300px;
+    background-color:white;
+
 }
 
-.cards {
-    height: 200px;
-    width: 300px;
-    border: 2px solid black;
-    margin-top: 50px;
-    margin-left: 40px;
-}
-
-.cards2 {
-    height: 200px;
-    width: 300px;
-    margin-top: -204px;
-    margin-left: 480px;
-}
-
-.cards3 {
-    height: 200px;
-    width: 300px;
-    border: 2px solid black;
-    margin-top: -204px;
-    margin-left: 887px;
-}
-
-.cards h2 {
-    font-family: "Pacifico";
-    text-align: center;
-    margin-top: 0px;
-}
-
-
-.cards3 h2 {
-    font-family: "Pacifico";
-    text-align: center;
-    margin-top: 0px;
-}
-
-.subtitle {
-    font-size: 20px;
-    background-color: black;
-    color: white;
-    padding: 15px;
-    width: 180px;
-    text-align: center;
-    margin: 0px auto;
-    margin-top: 10px;
-    font-family: "Pacifico";
-}
 
 .hr {
     display: block;
